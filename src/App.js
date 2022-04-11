@@ -1,16 +1,8 @@
 import React from 'react';
-import * as Tone from "tone";
 import './App.css';
 import Voice from './components/voice';
 import Header from './components/header';
-import { library } from "@fortawesome/fontawesome-svg-core";
-import {
-  faPlay,
-  faStop,
-} from "@fortawesome/free-solid-svg-icons";
-import OscType from './components/oscType';
-library.add(faPlay);
-library.add(faStop);
+import * as Tone from "tone";
 
 //Audio
 //OSC
